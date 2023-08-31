@@ -1,0 +1,17 @@
+{
+  "name": "notfiy-server",
+  "version": "1.0.0",
+  "description": "sample push notification",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Bruno Mugamba",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "fcm-notification": "^2.0.0",
+    "firebase-admin": "^11.10.1"
+  }
+}
