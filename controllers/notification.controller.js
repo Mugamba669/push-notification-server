@@ -9,7 +9,7 @@ exports.sendNotification = (req, res, next) => {
     let msg = {
         notification: {
             title: "Sample Notification",
-            "body": "This is a sample notification"
+            body: "This is a sample notification"
         },
         data: {
             title: "Mukwano Toffa",
